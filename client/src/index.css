@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linear-gradient {
+    background: linear-gradient(
+        180deg,
+        rgba(32, 18, 63, 0) -7.14%,
+        #000000 85%
+    );
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(.85);
+}
